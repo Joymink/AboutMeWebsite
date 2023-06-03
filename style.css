@@ -1,0 +1,258 @@
+
+:root{
+    font-size: 16px;
+    font-family: fantasy;
+    --text-primary: rgb(181, 180, 180);
+    --text-secondary: white;
+    --bg-primary: #23232e;
+    --bg-secondary: goldenrod;
+    --transition-speed: 600ms;
+}
+
+body{
+    color:black;
+    background-color: white;
+    margin:0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 1rem;
+}
+body::-webkit-scrollbar-track{
+   background: rgb(64, 64, 64);
+
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(113, 113, 113);
+}
+main {
+    margin-left: 5rem; /* 5rem *16px =80px*/
+    padding: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.navbar{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+    z-index: 1;
+}
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.nav-item{
+    width:100%;
+}
+
+.nav-link{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:5rem;
+    color: var(--text-primary);
+    text-decoration:none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+.nav-link:hover{
+    filter:grayscale(0%) opacity(1);
+    background:var(--bg-secondary) ;
+    color: var(--text-secondary);
+    width:100%;
+}
+
+.link-text {
+    display:none;
+    margin-left: 1rem;
+}
+
+.icon {
+   min-width: 2rem;
+   margin: 0 1.5 rem;
+   
+}
+
+.navbar:hover {
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+   
+}
+.navbar-nav:hover{
+    width: 14rem;
+}
+
+.navbar:hover .link-text{
+    display: block;
+   
+    
+}
+
+.fa-primary {
+    color: goldenrod;
+
+}
+.fa-secondary{
+    color: gold;
+}
+.fa-primary,
+.fa-secondary{
+    transition: var(--transition-speed);
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+    }
+  
+    .navbar:hover{
+        width: 100vw;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .nav-item:hover{
+        height: 7rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar-nav {
+      flex-direction: row;
+     
+     
+    }
+    .navbar-nav:hover{
+        width:100vw;
+    }
+   
+    .nav-link {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+    }
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      top: 0;
+      width: 5rem;
+      height: 100vh;
+    }
+  
+    .navbar:hover {
+      width: 14rem;
+    }
+  
+    .navbar:hover .link-text {
+      display: inline;
+      justify-content: space-between;
+    }
+  
+    
+  
+    
+    }
+
+.header{
+    
+    width:100vw;
+    display:flex; 
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.539);
+    margin-top: -20px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+}
+.life-pictures{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     
+}
+
+.image-container{
+    display:flex;
+}
+.TopPics{
+    max-width: 500px;
+    border-radius: 999px;
+}
+.divider{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 4rem;
+    background: goldenrod;
+    font-size: 18pt;
+    height: 80px;
+}
+
+.slides{
+    display:flex;
+    flex-direction: column;
+}
+.slidephoto{
+    max-width: 300px;
+    border:5px solid white;
+    border-radius: 20px;
+    border-style: groove;
+}
+.slide-image{
+    padding: 10px;
+}
+
+.slide-left{
+    display:flex;
+    background:rgb(170, 170, 170);
+    padding: 10px;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+.slide-right{
+    display:flex;
+    justify-content: right;
+    background:rgb(222, 221, 221);
+    padding: 10px;
+    
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+  
+
+}
+.title-slide{
+    font-size: 30pt;
+    margin-top: -50px;
+    font-style: italic;
+}
+.description{
+    font-family: serif;
+    width: 60vw;
+    font-size: 18pt;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}

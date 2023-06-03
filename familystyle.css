@@ -1,0 +1,65 @@
+main{
+    background-color: rgb(138, 138, 138);
+}
+
+.family-container{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.top-row{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.TopRowPic{
+    max-width: 600px;
+    height: 400px;
+    border: 2px solid black;
+}
+.fam-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-row{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.BottomRowPic{
+    max-width: 530px;
+    border: 2px solid black;
+}
+
+.family-card{
+    padding: 20px;
+    background: white;
+    border: 2px solid black;
+   
+    padding-bottom:50px;
+}
+.family-card:hover{
+   background-color: goldenrod;
+   color: white;
+}
+.fam-title{
+    padding-bottom:10px;
+    font-size: 20pt;
+    font-style: oblique;
+}
+.fam-description{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 15pt;
+}
