@@ -42,7 +42,7 @@ class Header extends HTMLElement {
           </a>
         </li>
         <li class="nav-item">
-          <a href="constructionpage.html" class="nav-link">
+          <a href="contactme.html" class="nav-link">
               
               <i class="fa-solid fa-address-book fa-2xl icon"></i>
               <span class="link-text">Contact Me</span>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/contactstyle.css">
+
+    <script src="https://kit.fontawesome.com/1ab051970f.js" crossorigin="anonymous"></script>
+    <script src="Header.js"></script>
+
+    <title>Contact Me</title>
+</head>
+<body>
+    <main-header></main-header>
+    <main>
+        <form action="https://formsubmit.co/jayden7evans@gmail.com" method="POST" >
+            <div class="contact-form">
+                <div class="name">
+                    <div class="first-name">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" >
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="email">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="phone-number">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" >
+                    </div>
+                </div>
+                <div class="comments">
+                    <label for="comments" class="form-label">Why are you reaching out?</label>
+                    <input type="text" class="form-control" id="comments" required>
+
+                </div>
+                <div class="submit-but">
+                    <input type="submit" name="submit" id="submit" value="submit">
+
+                </div>
+            </div>
+        </form>
+        
+        
+    </main>
+    <main-footer></main-footer>
+</body>
+</html>
