@@ -1,24 +1,22 @@
 main{
+    width: fit-content;
+    position: relative;
+    
     background-color: rgb(138, 138, 138);
 }
 
 .family-container{
     display: flex;
-    padding: 50px;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
     gap: 30px;
 }
 
-.top-row{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-
-}
-
 .TopRowPic{
-    max-width: 600px;
-    height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
     border: 2px solid black;
 }
 .fam-img-container{
@@ -26,18 +24,19 @@ main{
     justify-content: center;
 }
 
-.bottom-row{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
-
 .BottomRowPic{
-    max-width: 530px;
+    max-width: 500px;
+    max-height: 500px;
     border: 2px solid black;
 }
 
 .family-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
     padding: 20px;
     background: white;
     border: 2px solid black;
@@ -49,17 +48,20 @@ main{
    color: white;
 }
 .fam-title{
+    display: flex;
+    justify-content: center;
     padding-bottom:10px;
     font-size: 20pt;
     font-style: oblique;
 }
 .fam-description{
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-content: center;
     padding-top: 20px;
-    padding-bottom: 30px;
-    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
     font-family: monospace;
     font-size: 15pt;
 }

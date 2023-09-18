@@ -120,12 +120,14 @@ main {
     .navbar:hover{
         width: 100vw;
         display:flex;
+        flex-direction: column;
         justify-content: space-evenly;
     }
     .nav-item:hover{
         height: 7rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+
     }
     .navbar-nav {
       flex-direction: row;
@@ -138,6 +140,10 @@ main {
    
     .nav-link {
       justify-content: center;
+    }
+   
+    .navbar:hover .link-text {
+        display:none;
     }
   
     main {
@@ -169,8 +175,9 @@ main {
 
 .header{
     
-    width:100vw;
+    
     display:flex; 
+    width: 100vw;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.539);
     margin-top: -20px;
