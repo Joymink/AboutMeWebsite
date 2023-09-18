@@ -16,30 +16,42 @@
     <main-header></main-header>
     <main>
         <form action="https://formsubmit.co/7d1eb2fc963b6d8190c446bd69db536b" method="POST" >
+            <!-- Honey pot -->
+            <input type="text" name ="_honey" style="display:none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="https://joymink.github.io/AboutMeWebsite/">
+
             <div class="contact-form">
+                <div class="contact-title">
+                   <h1>Contact Me!</h1>
+                   <h4>* Required field *</h4>
+                </div>
                 <div class="name">
-                    <div class="first-name">
-                        <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" name="name" id="firstName" required>
+                    <div class="f-name">
+                        <label for="firstName" class="form-label">First Name *</label>
+                        <input type="text" class="form-control" name="name" id="firstName" placeholder="John" required>
                     </div>
-                    <div class="last-name">
+                    <div class="f-name">
                         <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" name="Last Name" id="lastName" >
+                        <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="Doe" >
                     </div>
                 </div>
                 <div class="contact-info">
-                    <div class="email">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email"  class="form-control" name="email" placeholder="Email *" required>
+                    <div class="contact">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email"  class="form-control" name="email" placeholder="Email" required>
                     </div>
-                    <div class="phone-number">
+                    <div class="contact">
                         <label for="phoneNumber" class="form-label">Phone Number</label>
                         <input type="text" class="form-control" name= "phone" id="phoneNumber" placeholder="(###) ### ####" >
                     </div>
                 </div>
                 <div class="comments">
-                    <label for="comments" class="form-label">Why are you reaching out?</label>
-                    <textarea type="text" class="form-control" id="comments" name="comments" rows="3" required>
+                    <label for="comments" class="form-label">Comments *</label>
+                    <textarea type="text" class="form-control" id="comments" name="comments"  rows="3"  required>
                     </textarea>
                 </div>
         

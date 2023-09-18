@@ -58,7 +58,7 @@ class Footer extends HTMLElement{
   connectedCallback() {
     this.innerHTML=`
       <footer>
-        <p>&copy;2023 Jayden's Life, all photos taken from Google, Unsplash or personal</p>
+        <p>&copy;2023 Jayden's Life, all photos taken from Google, Unsplash or personal photos</p>
       </footer>
     `;
   }

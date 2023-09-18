@@ -266,4 +266,7 @@ main {
 footer{
     display: flex;
     justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    align-items: center;
+    bottom:0;
 }
