@@ -23,25 +23,6 @@ class Header extends HTMLElement {
           </a>
         </li> 
         <li class="nav-item">
-          <a href="constructionpage.html" class="nav-link">
-              <i class="fa-sharp fa-solid fa-medal fa-2xl icon"></i>
-              <span class="link-text">Projects</span>
-          </a>
-        </li>  
-        <li class="nav-item">
-          <a href="constructionpage.html" class="nav-link">
-              <i class="fa-solid fa-person-hiking fa-2xl icon"></i>
-              <span class="link-text">Hobbies</span>
-          </a>
-        </li> 
-        <li class="nav-item">
-          <a href="constructionpage.html" class="nav-link">
-              
-              <i class="fa-sharp fa-solid fa-bullseye fa-2xl icon"></i>
-              <span class="link-text">Dreams</span>
-          </a>
-        </li>
-        <li class="nav-item">
           <a href="contactme.html" class="nav-link">
               
               <i class="fa-solid fa-address-book fa-2xl icon"></i>
@@ -65,3 +46,25 @@ class Footer extends HTMLElement{
 }
 customElements.define('main-header', Header);
 customElements.define('main-footer',Footer);
+
+/* 
+<li class="nav-item">
+          <a href="constructionpage.html" class="nav-link">
+              <i class="fa-sharp fa-solid fa-medal fa-2xl icon"></i>
+              <span class="link-text">Projects</span>
+          </a>
+</li> 
+<li class="nav-item">
+          <a href="constructionpage.html" class="nav-link">
+              <i class="fa-solid fa-person-hiking fa-2xl icon"></i>
+              <span class="link-text">Hobbies</span>
+          </a>
+        </li> 
+        <li class="nav-item">
+          <a href="constructionpage.html" class="nav-link">
+              
+              <i class="fa-sharp fa-solid fa-bullseye fa-2xl icon"></i>
+              <span class="link-text">Dreams</span>
+          </a>
+        </li> 
+*/
