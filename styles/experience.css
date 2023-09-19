@@ -1,0 +1,134 @@
+main{
+    position: relative;
+}
+.bk-img{
+    height:50vh;
+    width:100vw;
+    border-bottom:1px solid black;
+}
+.experiences{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-title{
+    
+    border-bottom:1px solid black;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.job-cards{
+    overflow: auto;
+    height: 36rem;
+    width:80vw;
+    padding: 10px;
+}
+.odd{
+    background: rgb(220, 220, 220);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+    margin:2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(225, 223, 223);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.job-box{
+    display: flex;
+    height:10rem;
+    flex-direction: column;
+    border-bottom:1px solid black;
+    padding: 1rem;
+}
+
+.job-secondary{
+    display: flex;
+    justify-content: space-between;
+}
+.company{
+    font-size: larger;
+    font-style: italic;
+}
+.time{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(112, 112, 112);
+}
+.job-description{
+    font-family: 'Times New Roman', san-serif;
+    font-size: .9rem;
+}
+.school-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.school-card{
+    display: flex;
+    height:10rem;
+    flex-direction: column;
+    border-bottom:1px solid black;
+    padding: 1.2rem;
+    padding-bottom: 2rem;
+    align-items: flex-end;
+    
+    
+}
+.school-box{
+    overflow: auto;
+    height: 36rem;
+    width:80vw;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.school-secondary{
+    
+    display: flex;
+    width:75vw;
+    justify-content: space-between;
+}
+.school-title{
+    font-family: Cambria serif;
+    text-shadow: 5px 5px 10px rgb(82, 82, 82);
+}
+.toppers{
+    margin-top: -1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions-s{
+    font-family:Cambria serif;
+}
+.contact-me{
+    color: black;
+}
+.ex-icon{
+    color: black;
+}
+
